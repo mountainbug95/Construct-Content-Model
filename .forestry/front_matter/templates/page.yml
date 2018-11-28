@@ -39,7 +39,7 @@ fields:
       sections
     fields:
       - type: field_group
-        name: highlits
+        name: highlights
         label: Highlights Section
         fields: []
       - type: field_group
