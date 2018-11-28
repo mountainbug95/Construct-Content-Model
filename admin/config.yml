@@ -181,11 +181,28 @@ collections:
                     label: Section ID
                     default: three
                   - name: features
-                    widget: object
+                    widget: list
                     required: false
                     label: Features
                     hint: A list of features to be displayed in the section
-                    fields: []
+                    fields:
+                      - name: title
+                        widget: string
+                        required: true
+                        label: Feature Title
+                        hint: The first line of text displayed in the feature
+                      - name: text
+                        widget: markdown
+                        required: false
+                        label: Feature Text
+                        hint: The text displayed below the feature title
+                      - name: icon
+                        widget: string
+                        required: false
+                        label: Feature Icon
+                        hint: >-
+                          (Font Awesome icon) The icon displayed above the
+                          feature title
                   - name: actions
                     widget: list
                     required: false
@@ -359,16 +376,75 @@ collections:
           Configures the page sections for the home highlights and spotlights
           sections
         fields:
-          - name: highlits
+          - name: highlights
             widget: object
             required: false
             label: Highlights Section
-            fields: []
+            fields:
+              - name: enabled
+                widget: boolean
+                required: false
+                label: Enabled
+                default: false
+                hint: displays the page highlight in the home highlights section
+              - name: weight
+                widget: number
+                required: false
+                label: Weight
+                default: 1
+                hint: The index of the page highlight in the home highlights section
+                valueType: int
+              - name: excerpt
+                widget: markdown
+                required: false
+                label: Page Excerpt
+                hint: The excerpt displayed in the home highlights section
+              - name: home_img
+                widget: object
+                required: false
+                label: Home Highlight Image
+                hint: The image displayed in the home highlights section
+                fields:
+                  - name: path
+                    widget: image
+                    required: false
+                    label: Image
+                  - name: data_position
+                    widget: string
+                    required: false
+                    label: Data Position
+                    default: center right
+                    hint: >-
+                      The position of the image in its container (center, center
+                      left, right, etc.)
           - name: spotlights
             widget: object
             required: false
             label: Spotlights Section
-            fields: []
+            fields:
+              - name: enabled
+                widget: boolean
+                required: false
+                label: Enabled
+                default: false
+                hint: displays the page highlight in the home spotlights section
+              - name: weight
+                widget: number
+                required: false
+                label: Weight
+                default: 1
+                hint: The index of the page highlight in the home spotlights section
+                valueType: int
+              - name: excerpt
+                widget: markdown
+                required: false
+                label: Page Excerpt
+                hint: The excerpt displayed in the home spotlights section
+              - name: home_img_path
+                widget: image
+                required: false
+                label: Home Spotlight Image
+                hint: The image displayed in the home spotlights section
       - name: layout
         widget: hidden
         required: true
