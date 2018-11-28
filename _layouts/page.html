@@ -1,0 +1,28 @@
+---
+layout: body
+---
+
+    {% if page.header %}
+        <!-- Header -->
+        <header id="header">
+            <h1>{{ page.header }}</h1>
+        </header>
+    {% endif %}
+    
+    <!-- Main -->
+    <section id="main" class="wrapper alt">
+        <div class="inner">
+            
+            <header class="major special">
+                <h2>{{ page.title }}</h2>
+                {{ page.subtitle | markdownify }}
+            </header>
+            
+            {% if page.content_img %}
+                <a href="{{ page.content_img.url | link | relative_url }}" class="image fit"><img src="{{ page.content_img.path | relative_url }}" alt="" /></a>
+            {% endif %}
+            
+            {{ content }}
+            
+        </div>
+    </section>
