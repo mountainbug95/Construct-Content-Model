@@ -32,6 +32,10 @@ fields:
       - type: text
         name: url
         label: Image URL
+        description: 'Use # if image has no link'
+        default: '#'
+        config:
+          required: true
   - type: field_group
     name: home
     label: Home Sections
