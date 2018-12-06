@@ -1,6 +1,6 @@
 ---
-header: Construct
 title: Magna tempus nisl
+display_header: true
 content_img:
   path: images/pic06.jpg
   url: generic.md

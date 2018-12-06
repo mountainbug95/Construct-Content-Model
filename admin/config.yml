@@ -339,16 +339,17 @@ collections:
     extension: md
     slug: '{{slug}}'
     fields:
-      - name: header
-        widget: string
-        required: false
-        label: Page Header
-        hint: The text displayed at the top of the page
       - name: title
         widget: string
         required: true
         label: Page Title
         hint: The bold first line of text in the page content area
+      - name: display_header
+        widget: boolean
+        required: false
+        label: Display Page Header
+        default: false
+        hint: Displays the site title at the top of the page
       - name: subtitle
         widget: markdown
         required: false

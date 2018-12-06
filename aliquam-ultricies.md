@@ -1,6 +1,6 @@
 ---
-header: Construct
 title: Aliquam ultricies
+display_header: true
 subtitle: >-
   Vitae dictum. Sed consectetur nulla lacus, ultricies ornare lacus volutpat at.
   Nunc rutrum turpis.

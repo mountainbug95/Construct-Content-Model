@@ -1,6 +1,6 @@
 ---
-header: Construct
 title: Diam sed interdum
+display_header: true
 content_img:
   path: images/pic06.jpg
   url: generic.md

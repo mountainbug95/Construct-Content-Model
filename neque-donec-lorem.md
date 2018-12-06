@@ -1,6 +1,6 @@
 ---
-header: Construct
 title: Neque donec lorem
+display_header: true
 content_img:
   path: images/pic06.jpg
   url: generic.md

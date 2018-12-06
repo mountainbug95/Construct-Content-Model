@@ -1,6 +1,6 @@
 ---
-header: Construct
 title: Generic
+display_header: true
 subtitle: Lorem ipsum dolor sit amet nullam id egestas urna aliquam
 content_img:
   path: images/pic06.jpg
