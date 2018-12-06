@@ -356,20 +356,10 @@ collections:
         label: Page Subtitle
         hint: The text displayed below the page title
       - name: content_img
-        widget: object
+        widget: image
         required: false
         label: Content Image
         hint: The image displayed below the page subtitle
-        fields:
-          - name: path
-            widget: image
-            required: false
-            label: Image
-          - name: url
-            widget: string
-            required: false
-            label: Image URL
-            default: '#'
       - name: home
         widget: object
         required: false

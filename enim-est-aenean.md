@@ -4,9 +4,7 @@ display_header: true
 subtitle: >-
   Vitae dictum. Sed consectetur nulla lacus, ultricies ornare lacus volutpat at.
   Nunc rutrum turpis.
-content_img:
-  path: images/pic06.jpg
-  url: generic.md
+content_img: images/pic06.jpg
 home:
   highlights:
     enabled: true

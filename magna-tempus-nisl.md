@@ -1,9 +1,7 @@
 ---
 title: Magna tempus nisl
 display_header: true
-content_img:
-  path: images/pic06.jpg
-  url: generic.md
+content_img: images/pic06.jpg
 home:
   spotlights:
     enabled: true

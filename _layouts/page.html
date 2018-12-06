@@ -19,7 +19,7 @@ layout: body
             </header>
             
             {% if page.content_img %}
-                <a href="{% if page.content_img.url != '' %}{{ page.content_img.url | link | relative_url }}{% else %}#{% endif %}" class="image fit"><img src="{{ page.content_img.path | relative_url }}" alt="" /></a>
+                <a href="#" class="image fit"><img src="{{ page.content_img | relative_url }}" alt="" /></a>
             {% endif %}
             
             {{ content }}
