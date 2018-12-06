@@ -369,6 +369,7 @@ collections:
             widget: string
             required: false
             label: Image URL
+            default: '#'
       - name: home
         widget: object
         required: false
