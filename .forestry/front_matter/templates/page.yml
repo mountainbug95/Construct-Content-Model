@@ -21,21 +21,10 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: field_group
+  - type: file
     name: content_img
     label: Content Image
     description: The image displayed below the page subtitle
-    fields:
-      - type: file
-        name: path
-        label: Image
-      - type: text
-        name: url
-        label: Image URL
-        description: 'Use # if image has no link'
-        default: '#'
-        config:
-          required: true
   - type: field_group
     name: home
     label: Home Sections
