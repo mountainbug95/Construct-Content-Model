@@ -367,10 +367,8 @@ collections:
             label: Image
           - name: url
             widget: string
-            required: true
+            required: false
             label: Image URL
-            default: '#'
-            hint: 'Use # if image has no link'
       - name: home
         widget: object
         required: false
