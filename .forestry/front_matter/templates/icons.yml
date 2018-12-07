@@ -38,13 +38,6 @@ fields:
         config:
           required: true
   - type: text
-    name: identifier
-    label: Identifier
-    description: Used by the CMS to identify the section (not used by the page)
-    default: icons
-    config:
-      required: true
-  - type: text
     name: component
     label: Section Component
     hidden: true
