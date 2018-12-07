@@ -23,11 +23,11 @@ sections:
       - icon: fa-cloud
     identifier: icons
     component: icons.html
-    type: icons
+    template: icons
   - section_id: two
     identifier: highlights
     component: highlights.html
-    type: highlights
+    template: highlights
   - title: Commodo justo interdum
     subtitle: >-
       Nam condimentum ullamcorper quam vitae dictum. Sed consectetur nulla
@@ -67,11 +67,11 @@ sections:
         is_primary: false
     identifier: features
     component: features.html
-    type: features
+    template: features
   - section_id: four
     identifier: spotlights
     component: spotlights.html
-    type: spotlights
+    template: spotlights
 cta:
   enabled: true
   title: Amet magna tempus
