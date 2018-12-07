@@ -4,6 +4,8 @@ is_partial: true
 fields:
   - type: field_group
     name: sass
+    label: Sass
     fields:
       - type: text
         name: color
+        label: Color
