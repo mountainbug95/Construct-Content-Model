@@ -129,14 +129,6 @@ collections:
                         required: true
                         label: Icon
                         hint: Font Awesome icon
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: icons
-                    hint: >-
-                      Used by the CMS to identify the section (not used by the
-                      page)
                   - name: component
                     widget: hidden
                     required: true
@@ -151,14 +143,6 @@ collections:
                     required: true
                     label: Section ID
                     default: two
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: highlights
-                    hint: >-
-                      Used by the CMS to identify the section (not used by the
-                      page)
                   - name: component
                     widget: hidden
                     required: true
@@ -234,14 +218,6 @@ collections:
                         label: Is Primary
                         default: false
                         hint: Gives the button a primary color scheme
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: features
-                    hint: >-
-                      Used by the CMS to identify the section (not used by the
-                      page)
                   - name: component
                     widget: hidden
                     required: true
@@ -256,14 +232,6 @@ collections:
                     required: true
                     label: Section ID
                     default: four
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: spotlights
-                    hint: >-
-                      Used by the CMS to identify the section (not used by the
-                      page)
                   - name: component
                     widget: hidden
                     required: true
