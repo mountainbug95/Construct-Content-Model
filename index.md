@@ -24,7 +24,8 @@ sections:
     identifier: icons
     component: icons.html
     template: icons
-  - section_id: two
+  - title: Highlights Section
+    section_id: two
     identifier: highlights
     component: highlights.html
     template: highlights
@@ -68,7 +69,8 @@ sections:
     identifier: features
     component: features.html
     template: features
-  - section_id: four
+  - title: Spotlights Section
+    section_id: four
     identifier: spotlights
     component: spotlights.html
     template: spotlights
